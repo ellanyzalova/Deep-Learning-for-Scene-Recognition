@@ -1,3 +1,5 @@
 *.tar.gz filter=lfs diff=lfs merge=lfs -text
+data/miniplaces/*.pkl filter=lfs diff=lfs merge=lfs -text
+myenv/lib/python3.8/site-packages/torch/lib/*.dylib filter=lfs diff=lfs merge=lfs -text
 *.pkl filter=lfs diff=lfs merge=lfs -text
 *.dylib filter=lfs diff=lfs merge=lfs -text
